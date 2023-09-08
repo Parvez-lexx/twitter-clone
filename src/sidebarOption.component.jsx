@@ -4,8 +4,8 @@ import "./sidebarOption.styles.css"
 const SidebarOption = ({active, text, Icon}) => {
   return (
     <div className={`sidebarOption ${active && 'sidebarOption_active'}`}>
-      {/* <Icon /> */}
-      <h2>{text}</h2>
+      <Icon />
+      <h5>{text}</h5>
     </div>
   );
 }

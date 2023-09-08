@@ -9,10 +9,11 @@
     color: var(--twitter-color);
     transition: color 100ms ease-out;
 }
-/* .sidebarOption > .muiroot {
-    padding: 20px;
-} */
-.sidebarOption {
+.sidebarOption > .MuiSvgIcon-root {
+    padding: 20px 15px 20px 20px;
+    font-size: 20px;
+}
+.sidebarOption > h2 {
     font-weight: 800;
     font-size: 20px;
     margin-right: 20px;
